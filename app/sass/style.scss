@@ -17,6 +17,8 @@
   &__logo {
     font-size: 32px;
     text-transform: uppercase;
+    letter-spacing: 0.34em;
+
   }
 
 
@@ -76,6 +78,7 @@
   background-position: right 10px center;
   background-repeat: no-repeat;
   background-size: 32px;
+  box-shadow: 0 17px 19px rgb(0 0 0 / 20%);
 
 
 
@@ -101,7 +104,7 @@
   padding: 20px 0;
 
   &__phone {
-    font-size: 32px;
+    font-size: 16px;
   }
 }
 
@@ -116,20 +119,27 @@
   margin: 40px 0;
 
   border-radius: 15px;
+  box-shadow: 0 17px 19px rgb(0 0 0 / 20%);
+
 
 
   &__title {
     padding-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 5 px;
+    font-weight: 700;
+    font-size: 20px;
   }
 
   &__text {
     margin-bottom: 20px;
+    opacity: 0.8;
   }
 
   &__item-title {
     border-bottom: 1px solid $wh;
     padding: 10px 0;
+    font-size: 22px;
+    line-height: 30px;
   }
 
   &__item-list {
@@ -160,6 +170,8 @@
 
   margin: 40px 0;
   padding-bottom: 20px;
+  box-shadow: 0 17px 19px rgb(0 0 0 / 20%);
+
 
 
   &__gallery {
@@ -171,12 +183,19 @@
 
     img {
       margin-right: 20px;
+      border-radius: 15px;
+
     }
+  }
+
+  &__inner {
+    padding-left: 10px;
   }
 
   &__title {
     margin-bottom: 20px;
-
+    font-size: 26px;
+    line-height: 30px;
   }
 
   &__text {
