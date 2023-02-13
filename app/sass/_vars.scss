@@ -1,0 +1,136 @@
+$black:#31525b;
+$wh:#fff;
+$red:#d94946;
+$bgc:#f8efea;
+$gre: #1d3124;
+
+.feedback-form__button {
+  width: 100%;
+  height: 36px;
+  background: #ffb73a;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 8px 0;
+  margin-top: 5px;
+  box-shadow: 0 13px 8px -8px #909090;
+  border-bottom: 5px solid #fa9f00;
+  outline: 0;
+  display: inline-block
+}
+
+.feedback-form__input::-webkit-input-placeholder {
+  color: #999;
+  font-family: Manrope, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400
+}
+
+.feedback-form__input::-moz-placeholder {
+  color: #999;
+  font-family: Manrope, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400
+}
+
+.feedback-form__input:-ms-input-placeholder {
+  color: #999;
+  font-family: Manrope, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400
+}
+
+.feedback-form__input::-ms-input-placeholder {
+  color: #999;
+  font-family: Manrope, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400
+}
+
+.feedback-form__input::placeholder {
+  color: #999;
+  font-family: Manrope, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400
+}
+
+// animation
+.text-typing {
+  width: 150px;
+
+  font-size: 22px;
+  font-family: 'Marck Script', cursive;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 5s steps(50, end);
+  animation-iteration-count: infinite;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 320;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__inner {
+    position: absolute;
+
+
+    border: 1px solid $black;
+    background: #000;
+    top: 160px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+
+  }
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  &__select {
+    padding: 20px;
+    border: 1px solid $black;
+    margin-bottom: 20px;
+    text-align: left;
+    background: $red;
+    border-radius: 15px;
+  }
+
+
+
+}

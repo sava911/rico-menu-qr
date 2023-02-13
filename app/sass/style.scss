@@ -1,0 +1,186 @@
+@import "_normalize.scss";
+@import "_vars.scss";
+@import "_global.scss";
+
+// start header
+.header {
+
+
+  &__inner {
+    height: 80px;
+    background: $black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+
+
+
+  &__btn {
+
+    width: 50px;
+    height: 50px;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 32px;
+  }
+
+  .start {
+    background-image: url('../images/icons/user-plus.svg');
+
+  }
+
+  .close {
+
+
+    background-image: url('../images/icons/user-minus.svg');
+
+  }
+
+
+}
+
+// end header
+
+
+
+
+
+.assets {
+  padding-top: 100px;
+
+
+}
+
+.btn {
+  padding: 20px;
+  background: $red;
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+
+}
+
+.btn-menu {
+
+  background-image: url('../images/icons/spoon-knife.svg');
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 32px;
+
+
+
+}
+
+.btn-wine {
+  background-image: url('../images/icons/glass.svg');
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 32px;
+}
+
+.btn-bar {
+  background-image: url('../images/icons/mug.svg');
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 32px;
+}
+
+.footer {
+  background: $black;
+  text-align: center;
+  padding: 20px 0;
+
+  &__phone {
+    font-size: 32px;
+  }
+}
+
+
+.active {
+  display: block;
+}
+
+.menu {
+  background: $red;
+  padding-left: 10px;
+  margin: 40px 0;
+
+  border-radius: 15px;
+
+
+  &__title {
+    padding-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+  }
+
+  &__item-title {
+    border-bottom: 1px solid $wh;
+    padding: 10px 0;
+  }
+
+  &__item-list {
+    ol li {
+
+      display: flex;
+
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 16px;
+      padding: 10px;
+    }
+
+
+    div {
+
+      flex: 1 0;
+      border-bottom: 1px dotted $wh;
+      height: 1em;
+      margin: 0 0.4em;
+    }
+  }
+}
+
+.product {
+  background: $red;
+  border-radius: 15px;
+
+  margin: 40px 0;
+  padding-bottom: 20px;
+
+
+  &__gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-y: hidden;
+    margin-bottom: 40px;
+
+    img {
+      margin-right: 20px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 20px;
+
+  }
+
+  &__text {
+
+    padding: 0 10px;
+  }
+}

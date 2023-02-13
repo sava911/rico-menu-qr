@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Document</title>
+</head>
+
+<body class="body-home">
+  <header class="header">
+    <div class="header__inner fixed">
+
+      <a href="index.html" class="header__logo text-typing">Rico</a>
+      <button class="start header__btn click "></button>
+
+    </div>
+  </header>
+
+  <div class="modal">
+    <div class="modal__wrapper">
+      <div class="modal__inner">
+
+        <h3 class="modal__title">Кого, позвать ?</h3>
+
+        <form class="modal__form">
+          <select class="modal__select" name="rest" required>
+            <option selected disabled value=''>Официант или менджер </option>
+            <option value="moscow">Официант</option>
+            <option value="dom">Менджер</option>
+          </select>
+          <select class="modal__select" name="rest" required>
+            <option selected disabled value=''>Причина? Например - СЧЕТ! </option>
+            <option value="one">Принять заказ</option>
+            <option value="two">Повторить заказ</option>
+            <option value="three">Счет</option>
+            <option value="fore">Забыли принести</option>
+            <option value="five">Уточнить информацию</option>
+          </select>
+          <select class="modal__select" name="rest" required>
+            <option selected disabled value=''>Выберите номер стола №</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <button class="btn" type="submit">Позвать</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <!-- end modal -->
+  <main class="main">
+    <div class="container">
+      <h1 class="menu__title"></h1>
+
+      <div class="assets">
+        <a href="menu.html" class="assets__btn btn btn-menu">menu</a>
+        <a href="#" class="assets__btn btn btn-wine">wine</a>
+        <a href="#" class="assets__btn btn btn-bar">bar</a>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <a class="footer__phone" href="tel:+89968552494">8-(495)-855-24-94</a>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
